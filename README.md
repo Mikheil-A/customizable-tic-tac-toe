@@ -1,1 +1,1 @@
-# customizable-tic-tac-toe
+# customizable-tic-tac-toe in React
