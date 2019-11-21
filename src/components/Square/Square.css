@@ -1,0 +1,15 @@
+.square {
+	cursor: pointer;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	margin: 10px;
+	background-color: blue;
+	border-radius: 5px;
+}
+
+.winnerSquare {
+	background-color: red;
+}
