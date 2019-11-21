@@ -143,11 +143,11 @@ export default class Game extends Component {
                  squareHeight={this.state.height}
                  winnerSquars={this.state.winnerLine}/>
 
-          <button className="reset-btn" onClick={() => this.resetGame()}>reset game</button>
+          <button className="reset-btn" onClick={() => this.resetGame()}>Reset</button>
         </div>
 
         <div>{settings}</div>
-        
+
       </div>
     )
   }
