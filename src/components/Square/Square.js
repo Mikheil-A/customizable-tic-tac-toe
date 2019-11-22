@@ -7,7 +7,8 @@ export default function Square(props) {
   const style = {
     width: props.squareWidth + 'px',
     height: props.squareHeight + 'px',
-    fontSize: Math.min(props.squareWidth, props.squareHeight) - 20 + 'px'
+    // fontSize: Math.min(props.squareWidth, props.squareHeight) - 20 + 'px'
+    fontSize: '30px'
   };
 
   const squareClasses = ['square'];
@@ -17,7 +18,8 @@ export default function Square(props) {
 
   return (
     <button className={squareClasses.join(' ')} onClick={props.onClick} style={style}>
-      {props.value}
+      {/*{props.value}*/}
+      {props.data}
     </button>
   )
 }
